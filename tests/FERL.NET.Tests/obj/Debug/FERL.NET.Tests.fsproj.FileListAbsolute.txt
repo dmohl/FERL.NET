@@ -1,0 +1,13 @@
+C:\git\FERL.NET\tests\FERL.NET.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\git\FERL.NET\tests\FERL.NET.Tests\bin\Debug\FERL.NET.Tests.XML
+C:\git\FERL.NET\tests\FERL.NET.Tests\bin\Debug\FERL.NET.Tests.dll
+C:\git\FERL.NET\tests\FERL.NET.Tests\bin\Debug\FERL.NET.Tests.pdb
+C:\git\FERL.NET\tests\FERL.NET.Tests\bin\Debug\FERL.NET.dll
+C:\git\FERL.NET\tests\FERL.NET.Tests\bin\Debug\nunit.framework.dll
+C:\git\FERL.NET\tests\FERL.NET.Tests\bin\Debug\Rhino.Mocks.dll
+C:\git\FERL.NET\tests\FERL.NET.Tests\bin\Debug\SpecUnit.dll
+C:\git\FERL.NET\tests\FERL.NET.Tests\bin\Debug\FERL.NET.pdb
+C:\git\FERL.NET\tests\FERL.NET.Tests\bin\Debug\FERL.NET.xml
+C:\git\FERL.NET\tests\FERL.NET.Tests\bin\Debug\Rhino.Mocks.xml
+C:\git\FERL.NET\tests\FERL.NET.Tests\obj\Debug\FERL.NET.Tests.dll
+C:\git\FERL.NET\tests\FERL.NET.Tests\obj\Debug\FERL.NET.Tests.pdb

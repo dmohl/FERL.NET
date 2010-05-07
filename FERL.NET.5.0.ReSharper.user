@@ -1,0 +1,32 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="573BC5ED-7A7B-4535-8C45-07B3573E1DFB/f:OtpSelf.fs" caret="615" fromTop="22" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="573BC5ED-7A7B-4535-8C45-07B3573E1DFB/f:OtpSelf.fs" caret="221" fromTop="5" />
+      <File id="573BC5ED-7A7B-4535-8C45-07B3573E1DFB/f:OtpSelf.fs" caret="153" fromTop="7" />
+      <File id="573BC5ED-7A7B-4535-8C45-07B3573E1DFB/f:OtpSelf.fs" caret="33" fromTop="1" />
+      <File id="573BC5ED-7A7B-4535-8C45-07B3573E1DFB/f:OtpSelf.fs" caret="659" fromTop="22" />
+      <File id="573BC5ED-7A7B-4535-8C45-07B3573E1DFB/f:OtpSelf.fs" caret="252" fromTop="15" />
+      <File id="573BC5ED-7A7B-4535-8C45-07B3573E1DFB/f:OtpSelf.fs" caret="694" fromTop="23" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir>C:\Program Files (x86)\NUnit 2.5.3\bin\net-2.0\</NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+</Configuration>

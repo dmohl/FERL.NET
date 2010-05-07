@@ -1,0 +1,6 @@
+C:\git\FERL.NET\src\FERL.NET\bin\Debug\FERL.NET.XML
+C:\git\FERL.NET\src\FERL.NET\bin\Debug\FERL.NET.dll
+C:\git\FERL.NET\src\FERL.NET\bin\Debug\FERL.NET.pdb
+C:\git\FERL.NET\src\FERL.NET\obj\Debug\ResolveAssemblyReference.cache
+C:\git\FERL.NET\src\FERL.NET\obj\Debug\FERL.NET.dll
+C:\git\FERL.NET\src\FERL.NET\obj\Debug\FERL.NET.pdb
