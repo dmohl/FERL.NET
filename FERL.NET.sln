@@ -5,6 +5,11 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FERL.NET", "src\FERL.NET\FE
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FERL.NET.Tests", "tests\FERL.NET.Tests\FERL.NET.Tests.fsproj", "{6C3BB68D-8F4B-4C92-B997-89B0E0983607}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{115FC4E9-C17D-4EC9-A9BF-45A02C15E81F}"
+	ProjectSection(SolutionItems) = preProject
+		readme.txt = readme.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

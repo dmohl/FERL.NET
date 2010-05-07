@@ -2,26 +2,15 @@
 
 open System.Net
 open System.Net.Sockets
-
-type Pid = 
-    { Node : string
-      Id : int
-      Serial : int
-      Creation : int }
-
-type LocalNode =
-    { TcpListener : TcpListener
-      Pid : Pid
-      Port : int}
-
-let CreatePid nodeName port = {Node = nodeName; Id = port; Serial = port; Creation = port}
+open NodeCommon
 
 let BuildSelfNode nodeName erlangCookie port =
-    let tcpListener = new TcpListener(Dns.GetHostEntry("localhost").AddressList.[0], port)
+    let tcpListener = new TcpListener(IPAddress, port)
     do tcpListener.Start()
     let assignedPort = match port with
                        | _ when port <> 0 -> port
                        | _ -> (tcpListener.LocalEndpoint :?> IPEndPoint).Port
     let pid = CreatePid nodeName assignedPort
-    {TcpListener = tcpListener; Pid = pid; Port = assignedPort}
+    let assignedNodeName = BuildNodeName nodeName
+    {NodeName = assignedNodeName; TcpListener = tcpListener; Pid = pid; Port = assignedPort; Cookie = erlangCookie}
    
