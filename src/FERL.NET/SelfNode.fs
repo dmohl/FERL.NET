@@ -10,7 +10,7 @@ let BuildSelfNode nodeName erlangCookie port =
     let assignedPort = match port with
                        | _ when port <> 0 -> port
                        | _ -> (tcpListener.LocalEndpoint :?> IPEndPoint).Port
-    let pid = CreatePid nodeName assignedPort
     let assignedNodeName = BuildNodeName nodeName
+    let pid = CreatePid assignedNodeName assignedPort
     {NodeName = assignedNodeName; TcpListener = tcpListener; Pid = pid; Port = assignedPort; Cookie = erlangCookie}
    

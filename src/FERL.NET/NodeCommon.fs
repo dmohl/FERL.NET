@@ -9,7 +9,7 @@ type Pid =
       Serial : int
       Creation : int }
 
-type LocalNode =
+type Node =
     { NodeName : string
       TcpListener : TcpListener
       Pid : Pid

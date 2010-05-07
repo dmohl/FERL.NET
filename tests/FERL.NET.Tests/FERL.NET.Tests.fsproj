@@ -50,6 +50,7 @@
   <ItemGroup>
     <Compile Include="SelfNodeTests.fs" />
     <Compile Include="NodeCommonTests.fs" />
+    <Compile Include="PeerNodeTests.fs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\src\FERL.NET\FERL.NET.fsproj">
