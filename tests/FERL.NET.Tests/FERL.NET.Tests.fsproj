@@ -48,9 +48,8 @@
     <Reference Include="System.Numerics" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="SelfNodeTests.fs" />
+    <Compile Include="NodeTests.fs" />
     <Compile Include="NodeCommonTests.fs" />
-    <Compile Include="PeerNodeTests.fs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\src\FERL.NET\FERL.NET.fsproj">

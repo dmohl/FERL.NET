@@ -1,8 +1,13 @@
-﻿module SelfNode
+﻿module Node
 
 open System.Net
 open System.Net.Sockets
 open NodeCommon
+
+let BuildPeerNode nodeName =
+    let assignedNodeName = BuildNodeName nodeName
+    let pid = CreatePid assignedNodeName 0
+    {NodeName = assignedNodeName; TcpListener = null; Pid = pid; Port = 0; Cookie = null}
 
 let BuildSelfNode nodeName erlangCookie port =
     let tcpListener = new TcpListener(IPAddress, port)
@@ -14,3 +19,5 @@ let BuildSelfNode nodeName erlangCookie port =
     let pid = CreatePid assignedNodeName assignedPort
     {NodeName = assignedNodeName; TcpListener = tcpListener; Pid = pid; Port = assignedPort; Cookie = erlangCookie}
    
+let ConnectNodes peerNode = 
+    ""
