@@ -16,6 +16,11 @@ type Node =
       Port : int
       Cookie : string}
 
+type Connection =
+    { SelfNode : Node
+      PeerNode : Node
+      IsConnected : bool}
+
 let CreatePid nodeName port = {Node = nodeName; Id = port; Serial = port; Creation = port}
 
 let IPAddress = Dns.GetHostEntry("localhost").AddressList.[0]

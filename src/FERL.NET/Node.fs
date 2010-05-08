@@ -19,5 +19,5 @@ let BuildSelfNode nodeName erlangCookie port =
     let pid = CreatePid assignedNodeName assignedPort
     {NodeName = assignedNodeName; TcpListener = tcpListener; Pid = pid; Port = assignedPort; Cookie = erlangCookie}
    
-let ConnectNodes peerNode = 
-    ""
+let ConnectNodes selfNode peerNode = 
+    {SelfNode = selfNode; PeerNode = peerNode; IsConnected = true}
