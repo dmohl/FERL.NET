@@ -10,37 +10,35 @@
     <RecentFiles>
       <File id="115FC4E9-C17D-4EC9-A9BF-45A02C15E81F/f:readme.txt/l:C!?git?FERL.NET?readme.txt" caret="115" fromTop="0" />
       <File id="6C3BB68D-8F4B-4C92-B997-89B0E0983607/f:NodeCommonTests.fs" caret="326" fromTop="11" />
-      <File id="573BC5ED-7A7B-4535-8C45-07B3573E1DFB/f:SelfNode.fs" caret="610" fromTop="15" />
-      <File id="573BC5ED-7A7B-4535-8C45-07B3573E1DFB/f:PeerNode.fs" caret="161" fromTop="5" />
-      <File id="573BC5ED-7A7B-4535-8C45-07B3573E1DFB/f:NodeCommon.fs" caret="188" fromTop="11" />
-      <File id="6C3BB68D-8F4B-4C92-B997-89B0E0983607/f:SelfNodeTests.fs" caret="745" fromTop="21" />
-      <File id="6C3BB68D-8F4B-4C92-B997-89B0E0983607/f:PeerNodeTests.fs" caret="892" fromTop="25" />
+      <File id="6C3BB68D-8F4B-4C92-B997-89B0E0983607/f:NodeTests.fs" caret="2715" fromTop="8" />
+      <File id="573BC5ED-7A7B-4535-8C45-07B3573E1DFB/f:NodeCommon.fs" caret="372" fromTop="6" />
+      <File id="573BC5ED-7A7B-4535-8C45-07B3573E1DFB/f:Node.fs" caret="1628" fromTop="10" />
     </RecentFiles>
     <RecentEdits>
       <File id="115FC4E9-C17D-4EC9-A9BF-45A02C15E81F/f:readme.txt/l:C!?git?FERL.NET?readme.txt" caret="115" fromTop="0" />
-      <File id="573BC5ED-7A7B-4535-8C45-07B3573E1DFB/f:NodeCommon.fs" caret="655" fromTop="24" />
+      <File id="573BC5ED-7A7B-4535-8C45-07B3573E1DFB/f:NodeCommon.fs" caret="749" fromTop="24" />
       <File id="573BC5ED-7A7B-4535-8C45-07B3573E1DFB/f:NodeCommon.fs" caret="65" fromTop="3" />
-      <File id="573BC5ED-7A7B-4535-8C45-07B3573E1DFB/f:SelfNode.fs" caret="59" fromTop="2" />
       <File id="573BC5ED-7A7B-4535-8C45-07B3573E1DFB/f:NodeCommon.fs" caret="36" fromTop="1" />
       <File id="6C3BB68D-8F4B-4C92-B997-89B0E0983607/f:NodeCommonTests.fs" caret="968" fromTop="33" />
       <File id="6C3BB68D-8F4B-4C92-B997-89B0E0983607/f:NodeCommonTests.fs" caret="26" fromTop="1" />
-      <File id="6C3BB68D-8F4B-4C92-B997-89B0E0983607/f:SelfNodeTests.fs" caret="0" fromTop="0" />
-      <File id="6C3BB68D-8F4B-4C92-B997-89B0E0983607/f:SelfNodeTests.fs" caret="1045" fromTop="11" />
       <File id="6C3BB68D-8F4B-4C92-B997-89B0E0983607/f:NodeCommonTests.fs" caret="78" fromTop="3" />
       <File id="6C3BB68D-8F4B-4C92-B997-89B0E0983607/f:NodeCommonTests.fs" caret="139" fromTop="7" />
       <File id="6C3BB68D-8F4B-4C92-B997-89B0E0983607/f:NodeCommonTests.fs" caret="577" fromTop="18" />
       <File id="6C3BB68D-8F4B-4C92-B997-89B0E0983607/f:NodeCommonTests.fs" caret="353" fromTop="12" />
       <File id="6C3BB68D-8F4B-4C92-B997-89B0E0983607/f:NodeCommonTests.fs" caret="779" fromTop="23" />
-      <File id="6C3BB68D-8F4B-4C92-B997-89B0E0983607/f:SelfNodeTests.fs" caret="91" fromTop="3" />
-      <File id="6C3BB68D-8F4B-4C92-B997-89B0E0983607/f:PeerNodeTests.fs" caret="745" fromTop="19" />
-      <File id="573BC5ED-7A7B-4535-8C45-07B3573E1DFB/f:PeerNode.fs" caret="226" fromTop="6" />
-      <File id="573BC5ED-7A7B-4535-8C45-07B3573E1DFB/f:SelfNode.fs" caret="431" fromTop="11" />
-      <File id="6C3BB68D-8F4B-4C92-B997-89B0E0983607/f:PeerNodeTests.fs" caret="172" fromTop="8" />
       <File id="573BC5ED-7A7B-4535-8C45-07B3573E1DFB/f:NodeCommon.fs" caret="170" fromTop="10" />
-      <File id="6C3BB68D-8F4B-4C92-B997-89B0E0983607/f:SelfNodeTests.fs" caret="239" fromTop="10" />
-      <File id="6C3BB68D-8F4B-4C92-B997-89B0E0983607/f:SelfNodeTests.fs" caret="950" fromTop="26" />
-      <File id="6C3BB68D-8F4B-4C92-B997-89B0E0983607/f:PeerNodeTests.fs" caret="369" fromTop="13" />
-      <File id="6C3BB68D-8F4B-4C92-B997-89B0E0983607/f:PeerNodeTests.fs" caret="892" fromTop="25" />
+      <File id="6C3BB68D-8F4B-4C92-B997-89B0E0983607/f:NodeTests.fs" caret="66" fromTop="1" />
+      <File id="573BC5ED-7A7B-4535-8C45-07B3573E1DFB/f:Node.fs" caret="7" fromTop="0" />
+      <File id="573BC5ED-7A7B-4535-8C45-07B3573E1DFB/f:NodeCommon.fs" caret="387" fromTop="10" />
+      <File id="573BC5ED-7A7B-4535-8C45-07B3573E1DFB/f:NodeCommon.fs" caret="372" fromTop="6" />
+      <File id="6C3BB68D-8F4B-4C92-B997-89B0E0983607/f:NodeTests.fs" caret="2682" fromTop="10" />
+      <File id="6C3BB68D-8F4B-4C92-B997-89B0E0983607/f:NodeTests.fs" caret="1938" fromTop="0" />
+      <File id="6C3BB68D-8F4B-4C92-B997-89B0E0983607/f:NodeTests.fs" caret="2506" fromTop="6" />
+      <File id="6C3BB68D-8F4B-4C92-B997-89B0E0983607/f:NodeTests.fs" caret="2765" fromTop="9" />
+      <File id="573BC5ED-7A7B-4535-8C45-07B3573E1DFB/f:Node.fs" caret="95" fromTop="4" />
+      <File id="573BC5ED-7A7B-4535-8C45-07B3573E1DFB/f:Node.fs" caret="971" fromTop="1" />
+      <File id="573BC5ED-7A7B-4535-8C45-07B3573E1DFB/f:Node.fs" caret="1230" fromTop="6" />
+      <File id="573BC5ED-7A7B-4535-8C45-07B3573E1DFB/f:Node.fs" caret="1628" fromTop="10" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
