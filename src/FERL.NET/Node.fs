@@ -50,20 +50,24 @@ let LookupNodeInformationInEmpd node =
         {NodeName = node.NodeName; TcpListener = node.TcpListener; Pid = node.Pid; Port = port; Cookie = node.Cookie}
     | _ -> node
 
-//				if (response == port4resp)
-//				{
-//					int result = ibuf.read1();
-//					if (result == 0)
-//					{
-//						port = ibuf.read2BE();
-//						
-//						node.ntype = ibuf.read1();
-//						node._proto = ibuf.read1();
-//						node._distHigh = ibuf.read2BE();
-//						node._distLow = ibuf.read2BE();
-//						// ignore rest of fields
-//					}
-//				}
+let ConnectTo node =
+    try
+        let _, nodeHostName = GetNodeNameParts node.NodeName
+        let socket = new TcpClient(nodeHostName, node.Port)
+        socket.NoDelay <- true
+    with
+    | _ -> failwith "Failed to connect"
+//    sendName(peer.distChoose, self.flags);
+//    recvStatus();
+//    int her_challenge = recvChallenge();
+//    byte[] our_digest = genDigest(her_challenge, self.cookie());
+//    int our_challenge = genChallenge();
+//    sendChallengeReply(our_challenge, our_digest);
+//    recvChallengeAck(our_challenge);
+//    cookieOk = true;
+//    sendCookie = false;
 
 let ConnectNodes selfNode peerNode = 
+    let connectedPeerNode = LookupNodeInformationInEmpd peerNode
+    do ConnectTo peerNode
     {SelfNode = selfNode; PeerNode = peerNode; IsConnected = true}
